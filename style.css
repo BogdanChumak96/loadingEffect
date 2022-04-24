@@ -1,0 +1,35 @@
+@import url('http://fonts.cdnfonts.com/css/kinryu');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kinryu', sans-serif;
+}
+
+.bg {
+    height: 100vh;
+    background: url(./img/20533634.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+    /* filter: blur(100px); */
+}
+
+.loading-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 70px;
+}
